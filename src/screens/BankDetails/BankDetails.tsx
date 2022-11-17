@@ -19,7 +19,9 @@ const BankDetails = () =>{
                         <h3>Bank details</h3>
                     </div>
                     <Row>
+                        {/* 17 Nov Change End */}
                         <Col xl={6} lg={7} >
+                        {/* 17 Nov Change End */}
                             <div className="form_main">
                                 <div className="card">
                                     <h4>Please make sure your details are up-to-date for commission payments.</h4>

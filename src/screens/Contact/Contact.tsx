@@ -19,7 +19,9 @@ const Contact = () =>{
                         <h3>Contact</h3>
                     </div>
                     <Row>
+                        {/* 17 Nov Change Start */}
                         <Col xl={6} lg={7} >
+                        {/* 17 Nov Change End */}
                             <div className="form_main">
                                 <div className="card">
                                     <h4>How can we help?</h4>

@@ -19,7 +19,9 @@ const Updatedetails = () =>{
                         <h3>Update my details</h3>
                     </div>
                     <Row>
+                        {/* 17 Nov Change Start */}
                         <Col xl={6} lg={7} >
+                        {/* 17 Nov Change End */}
                             <div className="form_main">
                                 <div className="card">
                                     <Form>

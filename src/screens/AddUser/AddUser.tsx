@@ -19,7 +19,9 @@ const AddUser = () =>{
                         <h3>Add another user</h3>
                     </div>
                     <Row>
+                        {/* 17 Nov Change Start */}
                         <Col xl={6} lg={7} >
+                        {/* 17 Nov Change End */}
                             <div className="form_main adduser_main">
                                 <div className="card">
                                     <h4>Fill in the form below to activate their account</h4>

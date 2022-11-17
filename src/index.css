@@ -3,7 +3,9 @@
 /* 17 Nov Change End */
 
 :root{
+  /* 17 Nov Change Start */
   --font-family: 'Nunito Sans', sans-serif;
+  /* 17 Nov Change End */
   --duotax-white: #fff;
   --duotax-black: #000;
   --duotax-black-2: #2c2c2c;
