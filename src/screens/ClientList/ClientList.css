@@ -1,0 +1,10 @@
+/* 15 Nov change Start */
+.client_list_main{
+    margin-top: 10px;
+}
+
+.report_table td a{
+    color: var(--duotax-orange);
+    text-decoration: none;
+}
+/* 15 Nov change End */

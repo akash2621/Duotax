@@ -1,0 +1,155 @@
+.filter_table{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.filter_table span{
+    margin-right: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.filter_table .form-group {
+    display: block;
+    margin-right: 20px;
+}
+
+.filter_table .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+  
+.filter_table  .form-group label {
+    position: relative;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+  
+.filter_table .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--duotax-orange);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+  
+.filter_table .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    width: 4px;
+    height: 8px;
+    border: solid var(--duotax-orange);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.report_table table{
+    border-spacing: 0px 10px;
+    width: 100%;
+    border-collapse: separate;
+}
+
+.report_table th{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-bottom: 0px;
+    padding: 10px 10px;
+}
+
+.report_table td{
+    border-bottom: 0px;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
+.report_table td img{
+    width: 18px;
+    margin: 0px 10px 0px 0px;
+    /* 11 Nov Change Start */
+    cursor: pointer;
+    /* 11 Nov Change End */
+}
+
+.report_table tbody tr{
+    background-color: var(--duotax-white);
+    border: 1px solid var(--duotax-white);
+    transition: 0.2s all linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12%), 0 1px 2px rgba(0, 0, 0, 24%);
+}
+
+.report_table tbody tr:hover{
+    border: 1px solid var(--duotax-orange);
+}
+
+.report_table{
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* 15 Nov change Start */
+.report_action button{
+    padding: 0px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.report_action button:hover{
+    background-color: transparent!important;
+}
+
+.report_action button:active{
+    background-color: transparent!important;
+}
+
+.report_action button:focus-visible{
+    box-shadow: none;
+}
+
+.report_action .dropdown-toggle::after{
+    border-top: 0.3em solid var(--duotax-orange);
+}
+
+/* 17 Nov change Start */
+.report_action .dropdown-menu{
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 5%);
+}
+
+.report_action .dropdown-item{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    color: var(--duotax-black-3);
+}
+/* 17 Nov change End */
+/* 15 Nov change End */
+
+@media(max-width: 575px){
+    .filter_table{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .filter_table span{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .filter_table .form-group{
+        margin-bottom: 15px;
+    }
+}

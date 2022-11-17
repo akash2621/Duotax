@@ -1,0 +1,44 @@
+.form_main h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: var(--duotax-black-3);
+    margin-bottom: 20px;
+}
+
+.form_main .form-label{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.form_main .form-control{
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--duotax-black-2);
+    background-color: #ededed;
+}
+
+.form_main .form-control:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.form_main select{
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--duotax-black-2);
+}
+
+.form_main select:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.gst_checkbox input{
+    margin-right: 10px;
+}

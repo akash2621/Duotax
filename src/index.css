@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root{
+  --font-family: 'Mulish', sans-serif;
+  --duotax-white: #fff;
+  --duotax-black: #000;
+  --duotax-black-2: #2c2c2c;
+  --duotax-black-3: #2d2d2d;
+  --duotax-dark: #4c4c4c;
+  --duotax-dark-1: #e8e8e8;
+  --duotax-orange: #ff6600;
+  --duotax-orange_light: rgba(255, 102, 0, 0.5);
+  --duotax-orange-100: rgba(255,102,0,0.1);
+}
+
+body{
+  font-family: var(--font-family)!important;
+  background-color: #f9f9fa!important;
+}
+
+.card{
+  background-color: var(--duotax-white);
+  padding: 40px;
+  border-radius: 8px!important;
+  box-shadow: 0 1px 3px rgba(0 0 0 / 12%), 0 1px 2px rgba(0 0 0 / 24%);
+  -webkit-box-shadow: 0 1px 3px rgba(0 0 0 / 12%), 0 1px 2px rgba(0 0 0 / 24%);
+  border: 0px!important;
+  position: relative;
+}
+
+.orange_btn{
+  background-color: var(--duotax-orange);
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid var(--duotax-orange);
+  border-radius: 5px;
+  color: var(--duotax-white);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.orange_btn:hover{
+  color: var(--duotax-white);
+}
+
+.light_orange_btn{
+  background-color: var(--duotax-orange_light)
+}
+
+textarea{
+  height: inherit!important;
+  background-color: transparent!important;
+}
+
+.ant-layout{
+  background: #f9f9fa!important;
+}
+
+@media(max-width: 575px){
+  .card{
+    padding: 30px;
+  }
+}
+
+.ant-layout{
+  min-height: 100vh!important;
+}

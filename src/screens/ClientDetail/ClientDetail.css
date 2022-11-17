@@ -1,0 +1,19 @@
+/* 15 Nov change Start */
+.missing_property{
+    background-color: var(--duotax-white);
+    display: block;
+    padding: 12px 10px;
+    text-align: center;
+    color: var(--duotax-orange);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--duotax-white);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12%), 0 1px 2px rgba(0, 0, 0, 24%);
+}
+
+.missing_property:hover{
+    color: var(--duotax-orange);
+}
+/* 15 Nov change End */

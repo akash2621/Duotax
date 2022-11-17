@@ -1,0 +1,14 @@
+/* 10 Nov Change Start  */
+.outstanding_main{
+    margin-top: 50px;
+}
+
+.outstanding_main h5{
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: var(--duotax-black-2);
+    margin: 10px 0px;
+}
+/* 10 Nov Change End  */

@@ -1,0 +1,46 @@
+.page_titles{
+    margin-bottom: 30px;
+}
+
+.page_titles .breadcrumb{
+    margin-bottom: 8px;
+}
+
+.page_titles .breadcrumb-item a{
+    color: var(--duotax-orange);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.page_titles h3{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: var(--duotax-black-2);
+}
+
+.clients_list img{
+    max-width: 45px;
+    margin-bottom: 12px;
+}
+
+.clients_list h5{
+    color: var(--duotax-black);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.clients_list p{
+    font-size: 15px;
+    color: var(--duotax-dark);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 991px){
+    .clients_list{
+        margin-bottom: 20px;
+    }
+}

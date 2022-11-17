@@ -1,0 +1,139 @@
+.main_content{
+    padding: 50px 50px 50px 50px;
+}
+
+/* Dashboard Title */
+.dashboard_title{
+    margin-bottom: 40px;
+}
+
+.dashboard_title p{
+    margin-bottom: 5px;
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.dashboard_title h5{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.dashboard_title h6{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+
+/* Dashboard List */
+.common_card_dashboard{
+    height: 470px;
+    min-height: 470px;
+    max-height: 470px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.relation_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.relation_main h5{
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.relation_content h6 img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.relation_content h6{
+    color: var(--duotax-dark);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.relation_content p{
+    font-size: 15px;
+    color: var(--duotax-black-3);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.phone_numbar{
+    display: flex;
+    justify-content: space-between;
+    background: var(--duotax-dark-1);
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.phone_numbar h6{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.phone_numbar img{
+    cursor: pointer;
+}
+
+.clients_title p{
+    font-size: 15px;
+    color: var(--duotax-black-3);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.refer_client img{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.clients_main img{
+    width: 100%;
+}
+
+@media(max-width: 991px){
+    .clients_main img{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .refer_client img{
+        width: 50%;
+    }
+}
+
+@media(max-width: 767px){
+    .clients_main img{
+        width: 75%;
+    }
+}
+
+@media(max-width: 575px){
+    .refer_client img{
+        width: 80%;
+    }
+    .clients_main img{
+        width: 100%;
+    }
+    .main_content{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,248 @@
+.startform_main{
+    padding: 100px 0px;
+    background: #f0f0f0;
+}
+
+.form_step_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form_step_title h5{
+    background-color: #e6e6e6;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #032d60;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.form_step_title h6{
+    margin-bottom: 0px;
+    color: #727272;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.form_select{
+    background: transparent;
+    display: inline-block;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin-right: 15px;
+}
+
+.form_select [type="radio"]:checked, .form_select [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.form_select [type="radio"]:checked + label, .form_select [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: var(--duotax-black-2);
+    font-weight: 600;
+}
+
+.form_select [type="radio"]:checked + label:before,
+.form_select [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.form_select [type="radio"]:checked + label:after,
+.form_select [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: var(--duotax-orange);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.form_select [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.form_select [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.form_type{
+    margin-left: 65px;
+}
+
+.form_common{
+    margin-bottom: 35px;
+}
+
+.form_common label{
+    color: #032d60;
+    font-weight: 700!important;
+    font-size: 14px;
+}
+
+.form_content{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.form_content img{
+    max-width: 120px;
+    margin-bottom: 40px;
+}
+
+.form_content h5{
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--duotax-orange);
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.form_content h6{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.form_content p{
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form_content h4{
+    color: #023357;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.form_content ul{
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.form_content li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    color: #032d60;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.form_content li span{
+    background-color: #e6e6e6;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #032d60;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.start_info{
+    margin-top: 30px;
+}
+
+.start_info p{
+    margin-bottom: 10px;
+}
+
+.start_info p a{
+    color: #032d60!important;
+    text-decoration: underline!important;
+}
+
+.form_type.form_main hr{
+    border: 1px dashed var(--duotax-black-2);
+}
+
+.purchase_type .form_select{
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+.sublabel{
+    font-size: 12px;
+}
+
+.add_addtional{
+    font-size: 12px;
+    color: var(--duotax-black-2);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.owner_subtitle{
+    color: #032d60;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 1199px){
+    .form_content{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .form_content img{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 767px){
+    .form_select{
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 575px){
+    .startform_main{
+        padding: 50px 0px;
+    }
+}
