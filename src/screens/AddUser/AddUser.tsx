@@ -19,7 +19,7 @@ const AddUser = () =>{
                         <h3>Add another user</h3>
                     </div>
                     <Row>
-                        <Col lg={5} >
+                        <Col xl={6} lg={7} >
                             <div className="form_main adduser_main">
                                 <div className="card">
                                     <h4>Fill in the form below to activate their account</h4>

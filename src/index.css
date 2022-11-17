@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* 17 Nov Change Start */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* 17 Nov Change End */
 
 :root{
-  --font-family: 'Mulish', sans-serif;
+  --font-family: 'Nunito Sans', sans-serif;
   --duotax-white: #fff;
   --duotax-black: #000;
   --duotax-black-2: #2c2c2c;

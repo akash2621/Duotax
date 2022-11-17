@@ -2,16 +2,10 @@ import "./Sidebar.css";
 import { Layout, Menu } from 'antd';
 import { Link } from "react-router-dom";
 import logo from "../../../assets/image/logo.svg";
-import refer from "../../../assets/image/sidebar/Refer.svg";
-import home from "../../../assets/image/sidebar/Home.svg";
-import user from "../../../assets/image/sidebar/User.svg";
-import report from "../../../assets/image/sidebar/Report.svg";
-import commission from "../../../assets/image/sidebar/Commissions.svg";
-import edit from "../../../assets/image/sidebar/Edit.svg";
-import resource from "../../../assets/image/sidebar/Resources.svg";
-import contact from "../../../assets/image/sidebar/Contacts.svg";
-import adduser from "../../../assets/image/sidebar/Add_user.svg";
-import logout from "../../../assets/image/sidebar/Logout.svg";
+// 17 Nov Start
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse , faUser , faFile , faDollar , faPen , faImage , faEnvelope , faUserPlus , faSquarePlus , faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+// 17 Nov End
 
 const { Sider } = Layout;
 
@@ -34,19 +28,21 @@ const Sidebar = () =>{
                 <Menu mode="inline" >
                     <div className="sidebarmenu_main">
                         <div>
-                            <Menu.Item key="1" className="client_refer" ><Link to="/startform" ><img src={refer} alt="add" />Refer a client</Link></Menu.Item>
-                            <Menu.Item key="2" ><Link to="/" ><img src={home} alt="add" />Home</Link></Menu.Item>
-                            <Menu.Item key="3" ><Link to="/clients" ><img src={user} alt="add" />My clients</Link></Menu.Item>
-                            <Menu.Item key="4" ><Link to="/reports" ><img src={report} alt="add" />Reports & schedules</Link></Menu.Item>
-                            <Menu.Item key="5" ><Link to="/commissions" ><img src={commission} alt="add" />Commissions</Link></Menu.Item>
-                            <Menu.Item key="6" ><Link to="/bankdetails" ><img src={edit} alt="add" />Update bank details</Link></Menu.Item>
-                            <Menu.Item key="7" ><Link to="/resources" ><img src={resource} alt="add" />Resources</Link></Menu.Item>
-                            <Menu.Item key="8" ><Link to="/contact" ><img src={contact} alt="add" />Contact andy</Link></Menu.Item>
-                            <Menu.Item key="9" ><Link to="/updatedetails" ><img src={edit} alt="add" />Update my details</Link></Menu.Item>
-                            <Menu.Item key="10" ><Link to="/adduser" ><img src={adduser} alt="add" />Add user</Link></Menu.Item>
+                            {/* 17 Nov Start */}
+                            <Menu.Item key="1" className="client_refer" ><Link to="/startform" ><FontAwesomeIcon icon={faSquarePlus} />Refer a client</Link></Menu.Item>
+                            <Menu.Item key="2" ><Link to="/" ><FontAwesomeIcon icon={faHouse} />Home</Link></Menu.Item>
+                            <Menu.Item key="3" ><Link to="/clients" ><FontAwesomeIcon icon={faUser} />My clients</Link></Menu.Item>
+                            <Menu.Item key="4" ><Link to="/reports" ><FontAwesomeIcon icon={faFile} />Reports & schedules</Link></Menu.Item>
+                            <Menu.Item key="5" ><Link to="/commissions" ><FontAwesomeIcon icon={faDollar} />Commissions</Link></Menu.Item>
+                            <Menu.Item key="6" ><Link to="/bankdetails" ><FontAwesomeIcon icon={faPen} />Update bank details</Link></Menu.Item>
+                            <Menu.Item key="7" ><Link to="/resources" ><FontAwesomeIcon icon={faImage} />Resources</Link></Menu.Item>
+                            <Menu.Item key="8" ><Link to="/contact" ><FontAwesomeIcon icon={faEnvelope} />Contact andy</Link></Menu.Item>
+                            <Menu.Item key="9" ><Link to="/updatedetails" ><FontAwesomeIcon icon={faPen} />Update my details</Link></Menu.Item>
+                            <Menu.Item key="10" ><Link to="/adduser" ><FontAwesomeIcon icon={faUserPlus} />Add user</Link></Menu.Item>
+                            {/* 17 Nov End */}
                         </div>
                         <div>
-                            <Menu.Item key="11" ><Link to="/login" ><img src={logout} alt="add" />Log out</Link></Menu.Item>
+                            <Menu.Item key="11" ><Link to="/login" ><FontAwesomeIcon icon={faArrowRightFromBracket} />Log out</Link></Menu.Item>
                         </div>
                     </div>
                 </Menu>

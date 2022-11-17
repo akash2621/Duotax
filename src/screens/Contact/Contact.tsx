@@ -19,7 +19,7 @@ const Contact = () =>{
                         <h3>Contact</h3>
                     </div>
                     <Row>
-                        <Col lg={5} >
+                        <Col xl={6} lg={7} >
                             <div className="form_main">
                                 <div className="card">
                                     <h4>How can we help?</h4>

@@ -23,7 +23,7 @@ const MyClients = () =>{
                     <Row>
                         <Col xl={4} lg={6} >
                             <div className="clients_list">
-                                <div className="card">
+                                <div className="card clients_detail">
                                     <img src={user} alt="user" />
                                     <h5>Leads</h5>
                                     <p>Leads are clients you have referred but have not yet proceeded with ordering the report.</p>
@@ -33,7 +33,7 @@ const MyClients = () =>{
                         </Col>
                         <Col xl={4} lg={6} >
                             <div className="clients_list">
-                                <div className="card">
+                                <div className="card clients_detail">
                                     <img src={user} alt="user" />
                                     <h5>Clients</h5>
                                     <p>Clients you have referred, including both reports in progress and completed.</p>

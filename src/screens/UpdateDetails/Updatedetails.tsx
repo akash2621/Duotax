@@ -19,7 +19,7 @@ const Updatedetails = () =>{
                         <h3>Update my details</h3>
                     </div>
                     <Row>
-                        <Col lg={5} >
+                        <Col xl={6} lg={7} >
                             <div className="form_main">
                                 <div className="card">
                                     <Form>
